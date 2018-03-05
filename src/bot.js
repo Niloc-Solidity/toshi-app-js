@@ -5,6 +5,7 @@ const Fiat = require('./lib/Fiat')
 let bot = new Bot()
 
 // ROUTING
+// Test comment
 
 bot.onEvent = function(session, message) {
   switch (message.type) {
