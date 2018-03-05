@@ -28,7 +28,8 @@ bot.onEvent = function(session, message) {
 }
 
 function onMessage(session, message) {
-  welcome(session)
+  //welcome(session)
+  session.reply("Hello Colin!")
 }
 
 function onCommand(session, command) {
