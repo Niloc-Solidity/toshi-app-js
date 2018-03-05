@@ -28,8 +28,8 @@ bot.onEvent = function(session, message) {
 }
 
 function onMessage(session, message) {
-  //welcome(session)
-  session.reply("Hello Colin!")
+  welcome(session)
+  session.reply("Hello aColin!")
 }
 
 function onCommand(session, command) {
@@ -71,11 +71,11 @@ function onPayment(session, message) {
 // STATES
 
 function welcome(session) {
-  sendMessage(session, `Hello Token!`)
+  sendMessage(session, `Hello bColin!`)
 }
 
 function pong(session) {
-  sendMessage(session, `Pong`)
+  sendMessage(session, `cColin`)
 }
 
 // example of how to store state on each user
